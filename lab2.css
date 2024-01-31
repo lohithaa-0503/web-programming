@@ -1,0 +1,74 @@
+@keyframes example{
+from{ background-color:red;
+transform:rotate(0deg);}
+to{transform:rotate(360deg);
+	background-color:yellow;}
+}
+div.cl1{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:example;
+animation-duration:4s;
+animation-iteration-count:5;
+animation-direction:reverse;
+animation-timing-function:ease-in-out;
+animation-delay:2s;
+animation-fill-mode:backwards;
+}
+@keyframes example2{
+0%{ background-color:red;}
+25%{background-color:yellow;}
+50%{ background-color:blue;}
+100%{background-color:green;}
+}
+div.cl2{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:example2;
+animation-duration:4s;
+animation-iteration-count:infinite;   /* numbers */
+animation-direction:alternate-reverse;  /* alternate,normal */
+animation-timing-function:linear;  /* ease,ease-in,ease-out */
+animation-delay:3s;
+animation-fill-mode:forward;
+}
+@keyframes example3{
+0%{color:red;
+font-size:15px;}
+25%{color:yellow;font-size:50px;}
+50%{color:blue;font-size:70px;}
+100%{color:green;font-size:100px;}
+}
+div.cl3{
+color:black;
+animation-name:example3;
+animation-duration:4s;
+animation-iteration-count:infinite;   /* numbers */
+animation-direction:alternate-reverse;  /* alternate,normal */
+animation-timing-function:linear;  /* ease,ease-in,ease-out */
+animation-delay:3s;
+animation-fill-mode:backwards;
+}
+@keyframes example4{
+0%{background-color:red;transform:translateY(0px);}
+25%{background-color:yellow;transform:translateY(100px);}
+50%{ background-color:blue;transform:translateY(-100px);}
+75%{transform:translateY(0px);}
+100%{background-color:green;transform:translateY(100px);}
+}
+div.cl4{
+	height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+animation-name:example4;
+animation-duration:4s;
+animation-iteration-count:infinite;   /* numbers */
+animation-direction:alternate-reverse;  /* alternate,normal */
+animation-timing-function:linear;  /* ease,ease-in,ease-out */
+animation-delay:1s;
+animation-fill-mode:backwards;
+}
