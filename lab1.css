@@ -1,0 +1,24 @@
+.c1{
+	font-family:"Times New Roman";
+}
+#id1{
+	color:green;
+}
+h1{
+	text-align:center;
+	font-style:underline;
+}
+.c2{
+	font-style:italic;
+	background-color:#8c6ab8;
+}
+div {
+  margin-inline: 35px;
+  border-style: solid;
+  border-spacing: 100px;
+}
+*{
+	background-color:#ece9f0;
+	color:black;
+	text-align:left;
+}
